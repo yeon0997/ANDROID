@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#A694E6"
+        android:gravity="center"
+        android:padding="21dp"
+        android:text="으녕이"
+        android:textColor="#3F51B5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#688DA7"
+        android:gravity="center"
+        android:text="생일"
+        android:textColor="#8BC34A"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#03A9F4"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="축하해~"
+        android:textColor="#FF9800"
+        android:textSize="24sp" />
+</LinearLayout>
